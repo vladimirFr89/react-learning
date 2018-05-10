@@ -1,7 +1,9 @@
 'use strict';
+import React from 'react';
+import {render} from 'react-dom';
+import MyApp from './app.js';
 
-import calculateSumm from './calculateSum';
+document.addEventListener("DOMContentLoaded", function(event) {
 
-alert("Welcome to react learning");
-
-alert(`If 3 + 3 + 3 then is ${calculateSumm(3,3,3)} `);
+    render(<MyApp/>, document.getElementById('app'));
+});
