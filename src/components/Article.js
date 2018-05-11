@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Article(props) {
+    console.info('Article with props:');
     console.info(props);
     return (
         <div>
