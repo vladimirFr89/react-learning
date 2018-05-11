@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Article from './Article.js';
 import CoolArticle from './CoolArticle.js';
+import '../style/style.css';
 
 export default class AppComponent extends Component{
     render(){
