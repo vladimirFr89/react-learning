@@ -1,0 +1,10 @@
+.do-item-row{
+    padding: 5px;
+    background-color: aqua;
+    border: 1px solid peru;
+}
+
+.do-item-row--item{
+    display: inline-block;
+    margin-right: 10px;
+}
