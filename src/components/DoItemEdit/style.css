@@ -1,0 +1,8 @@
+.editing-row{
+    padding: 5px;
+}
+
+.editing-row--item{
+    margin-right: 10px;
+    display: inline-block;
+}
